@@ -211,13 +211,13 @@ const Sidebar = ({
                   fontSize="0.9rem"
                   sx={{ color: theme.palette.secondary[100] }}
                 >
-                  {user.name}
+                  {`Isaac Sakyi`}
                 </Typography>
                 <Typography
                   fontSize="0.8rem"
                   sx={{ color: theme.palette.secondary[200] }}
                 >
-                  {user.occupation}
+                  {`Software Engineer`}
                 </Typography>
               </Box>
               <SettingsOutlined
