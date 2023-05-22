@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const api = createApi({
-  baseQuery: fetchBaseQuery({ baseUrl: process.env.BASE_URL }),
+  baseQuery: fetchBaseQuery({ baseUrl: `https://backend-api-for-mern-dashboard.vercel.app/` }),
   reducerPath: "adminApi",
   tagTypes: [
     "User",
