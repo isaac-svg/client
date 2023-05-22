@@ -205,7 +205,7 @@ const Sidebar = ({
                 borderRadius="50%"
                 sx={{ objectFit: "cover" }}
               />
-              <Box textAlign="left">
+              {/* <Box textAlign="left">
                 <Typography
                   fontWeight="bold"
                   fontSize="0.9rem"
@@ -219,7 +219,7 @@ const Sidebar = ({
                 >
                   {`Software Engineer`}
                 </Typography>
-              </Box>
+              </Box> */}
               <SettingsOutlined
                 sx={{
                   color: theme.palette.secondary[300],
