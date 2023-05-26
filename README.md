@@ -20,7 +20,7 @@ Technologies and Libraries Used:
 - Nivo charts: A powerful and customizable charting library for React. It provides various chart types and interactive features for data visualization.
 
 Installation and Usage:
-1. Clone this repository: `git clone https://github.com/your-username/your-repo.git`
+1. Clone this repository: `git clone https://github.com/isaac-svg/finance-dashboard.git`
 2. Install dependencies: `npm install`
 3. Configure environment variables: Create a .env file with required configurations (e.g., database connection details, API keys).
 4. Start the server: `npm start`
