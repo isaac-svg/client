@@ -1,9 +1,9 @@
 Full-Stack Admin Dashboard with Server-Side Pagination, Charts, Sorting, and Analytics
 
 ## Screenshots
-![](/Screenshot1.png)
-![](/Screenshot2.png)
-![](/Screenshot3.png)
+![](/public/Screenshot1.png)
+![](/public/Screenshot2.png)
+![](/public/Screenshot3.png)
 This is a comprehensive full-stack project that includes an admin dashboard with powerful features for managing and visualizing data. The dashboard provides server-side pagination, various types of charts (pie, geography, line), sorting capabilities for products, customer activities, performance metrics, and detailed breakdowns of monthly and yearly sales. It is built with React, Material-UI, x-data-grid, Node.js, Express, CORS, and Nivo charts.
 
 Features:
