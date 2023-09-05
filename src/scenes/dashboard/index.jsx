@@ -70,6 +70,7 @@ const Dashboard = () => {
               fontSize: "14px",
               fontWeight: "bold",
               padding: "10px 20px",
+              display:{xs:"none", md:"block"}
             }}
           >
             <DownloadOutlined sx={{ mr: "10px" }} />
