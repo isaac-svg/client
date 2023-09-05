@@ -52,6 +52,7 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
             borderRadius="9px"
             gap="3rem"
             p="0.1rem 1.5rem"
+            sx={{display:{xs:"none", md:"block"}}}
           >
             <InputBase placeholder="Search..." />
             <IconButton>
@@ -97,13 +98,13 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
                 <Typography
                   fontWeight="bold"
                   fontSize="0.85rem"
-                  sx={{ color: theme.palette.secondary[100] }}
+                  sx={{ color: theme.palette.secondary[100], display:{xs:"none", md:"block"} }}
                 >
                   {`Isaac Sakyi`}
                 </Typography>
                 <Typography
                   fontSize="0.75rem"
-                  sx={{ color: theme.palette.secondary[200] }}
+                  sx={{ color: theme.palette.secondary[100], display:{xs:"none", md:"block"} }}
                 >
                   {`Software Engineer`}
                 </Typography>
